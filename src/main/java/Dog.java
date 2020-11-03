@@ -28,28 +28,12 @@ public class Dog extends Pet {
     }
 
     // Getter
-    public String getName() {
-        return this.name;
-    }
-    public int getAge() {
-        return this.age;
-    }
+
     public String getBreed() {
         return this.breed;
     }
 
     // Setter
-    public void setName(String name) {
-        if (name.trim().length() != 0) {
-            this.name = name;
-        }
-    }
-
-    public void setAge(int age) {
-        if (age >= 0) {
-            this.age = age;
-        }
-    }
 
      public void setBreed(String breed) {
         if (name.trim().length() != 0) {
